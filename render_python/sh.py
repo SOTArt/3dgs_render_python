@@ -55,6 +55,13 @@ SH_C3 = [
 
 
 def computeColorFromSH(deg, pos, campos, sh):
+   
+    """
+        deg: The order of the spherical harmonics function 阶数
+        pos: The central of 3DGS postion
+        campos: the postion of the carmera
+        sh: Coefficients of the spherical harmonic function 系数 16*3的矩阵
+    """
     # The implementation is loosely based on code for
     # "Differentiable Point-Based Radiance Fields for
     # Efficient View Synthesis" by Zhang et al. (2022)
