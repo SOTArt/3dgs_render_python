@@ -60,7 +60,7 @@ def computeColorFromSH(deg, pos, campos, sh):
         deg: The order of the spherical harmonics function 阶数
         pos: The central of 3DGS postion
         campos: the postion of the carmera
-        sh: Coefficients of the spherical harmonic function 系数 16*3的矩阵
+        sh: Coefficients of the spherical harmonic function,a matrix with a dimension of 16*3 (1 + 3 + 5 + 7)
     """
     # The implementation is loosely based on code for
     # "Differentiable Point-Based Radiance Fields for
